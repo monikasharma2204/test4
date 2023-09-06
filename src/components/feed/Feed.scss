@@ -1,0 +1,42 @@
+.Feed {
+  // height: calc(100vh - 60px);
+  margin-top: 60px;
+
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  .left-part {
+    flex: 2;
+    overflow-y: auto;
+  }
+  .right-part {
+    flex: 1;
+    margin-top: 20px;
+  }
+
+  .suggestions {
+    margin-top: 40px;
+  }
+
+  .title {
+    margin-bottom: 12px;
+  }
+  .createPost {
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+.createPostField {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  .createPostActionBtn{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 16px
+  }
